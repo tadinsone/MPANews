@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="572" viewBox="0 0 828 572">
+<title>MPA News card</title>
+<defs>
+  <style>
+    /* ---- brand settings: edit colors and font here ---- */
+    /* font: Noto Sans Myanmar | ink/dark: #14213D | accent: #C8102E | muted: #6B7280 | canvas: #EEF1F5 */
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;700');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800');
+    text { font-family: 'Noto Sans Myanmar','Pyidaungsu','Myanmar Text','Padauk','Inter',Arial,sans-serif; }
+    .canvas { fill: #EEF1F5; }
+    .front { fill: #FFFFFF; }
+    .back { fill: #14213D; }
+    .bar, .bar2, .cta { fill: #C8102E; }
+    .chip { fill: #C8102E; }
+    .chiptxt { fill: #fff; font-size: 15px; font-weight: 700; }
+    .src { fill: #6B7280; font-size: 13px; }
+    .head { fill: #14213D; font-size: 26px; font-weight: 700; }
+    .meta { fill: #6B7280; font-size: 14px; }
+    .rule { stroke: #E5E7EB; stroke-width: 1; }
+    .label { fill: #AEB8CC; font-size: 14px; font-weight: 700; letter-spacing: 1.5px; }
+    .body { fill: #F4F6FA; font-size: 19px; }
+    .ctatxt { fill: #fff; font-size: 16px; font-weight: 700; font-family: 'Inter',Arial,sans-serif; }
+  </style>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.18"/>
+  </filter>
+  <clipPath id="top"><rect width="360" height="500" rx="22"/></clipPath>
+</defs>
+<rect class="canvas" width="828" height="572"/>
+<g transform="translate(36,36)">
+  <rect class="front" width="360" height="500" rx="22" filter="url(#shadow)"/>
+  <rect class="bar" width="360" height="8" rx="4" x="0" y="0" clip-path="url(#top)"/>
+  <image href="https://mpanews.info/wp-content/uploads/2025/07/cropped-logo.png" x="28" y="34" width="150" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <text class="src" x="332" y="62" text-anchor="end">mpanews.info</text>
+  <rect class="chip" x="28" y="124" width="132" height="30" rx="15"/>
+  <text class="chiptxt" x="40" y="144">စီးပွားရေး</text>
+  <text class="head" x="28" y="190.0">ရန်ကုန် အထည်ချုပ်စက်ရုံ ၄</text>
+<text class="head" x="28" y="230.3">ရုံ ဆက်တိုက် ပိတ်မည်၊</text>
+<text class="head" x="28" y="270.6">လူတစ်သောင်းနီးပါး</text>
+<text class="head" x="28" y="310.9">အလုပ်လက်မဲ့ ဖြစ်ရန်ရှိ</text>
+  <line class="rule" x1="28" y1="416" x2="332" y2="416"/>
+  <text class="meta" x="28" y="438">၁၉ အောက်တိုဘာ ၂၀၂၆</text>
+  <text class="meta" x="332" y="438" text-anchor="end">MPA</text>
+</g>
+<g transform="translate(432,36)">
+  <rect class="back" width="360" height="500" rx="22" filter="url(#shadow)"/>
+  <rect class="bar2" x="28" y="34" width="34" height="5" rx="2.5"/>
+  <text class="label" x="28" y="66">အကျဉ်းချုပ်</text>
+  <text class="body" x="28" y="130.0">ရန်ကုန်တွင် အထည်ချုပ်စက်ရုံ ၄ ရုံ</text>
+<text class="body" x="28" y="165.2">ဆက်တိုက် ပိတ်သိမ်းမည်ဖြစ်ပြီး</text>
+<text class="body" x="28" y="200.3">အလုပ်သမား တစ်သောင်းနီးပါး</text>
+<text class="body" x="28" y="235.4">အလုပ်လက်မဲ့ ဖြစ်နိုင်ကြောင်း</text>
+<text class="body" x="28" y="270.6">အလုပ်သမားအဖွဲ့အစည်းက ထုတ်ပြန်။</text>
+  <rect class="cta" x="28" y="404" width="304" height="48" rx="24"/>
+  <text class="ctatxt" x="180.0" y="434" text-anchor="middle">mpanews.info/headline/13786</text>
+</g>
+</svg>

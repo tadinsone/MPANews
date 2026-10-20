@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPA News cards</title>
+<style>
+  :root { --ink:#14213D; --accent:#C8102E; --muted:#6B7280; --bg:#EEF1F5; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family:'Noto Sans Myanmar','Inter',system-ui,Arial,sans-serif; line-height:1.6; }
+  header { padding:32px 20px 8px; max-width:1200px; margin:0 auto; }
+  header h1 { margin:0 0 4px; font-size:1.6rem; }
+  header p { margin:0; color:var(--muted); }
+  main { max-width:1200px; margin:0 auto; padding:16px 20px 48px; }
+  h2 { margin:32px 0 12px; font-size:1.1rem; border-left:5px solid var(--accent); padding-left:10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+  figure { margin:0; background:#fff; border-radius:14px; padding:12px; box-shadow:0 6px 18px rgba(15,23,42,.12); }
+  object { width:100%; height:auto; aspect-ratio:4/5; display:block; border-radius:8px; background:#fff; }
+  .wide object { aspect-ratio:788/532; }
+  figcaption { font-size:.9rem; color:var(--muted); padding-top:8px; display:flex; justify-content:space-between; gap:8px; }
+  a { color:var(--accent); }
+  footer { max-width:1200px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>MPA News cards</h1>
+  <p>Sample social cards for mpanews.info · Myanmar Pressphoto Agency</p>
+</header>
+<main>
+  <h2>Facebook cards (1080×1350)</h2>
+  <div class="grid">
+    <figure>
+      <object type="image/svg+xml" data="output/facebook/fb_card_1.svg" aria-label="Facebook card 1"></object>
+      <figcaption><span>Card 1 · headline + photo</span><a href="output/facebook/fb_card_1.svg">SVG</a></figcaption>
+    </figure>
+    <figure>
+      <object type="image/svg+xml" data="output/facebook/fb_card_2.svg" aria-label="Facebook card 2"></object>
+      <figcaption><span>Card 2 · three demands</span><a href="output/facebook/fb_card_2.svg">SVG</a></figcaption>
+    </figure>
+    <figure>
+      <object type="image/svg+xml" data="output/facebook/fb_card_3.svg" aria-label="Facebook card 3"></object>
+      <figcaption><span>Card 3 · how to join + poster</span><a href="output/facebook/fb_card_3.svg">SVG</a></figcaption>
+    </figure>
+  </div>
+
+  <h2>Front / back samples</h2>
+  <div class="grid wide">
+    <figure>
+      <object type="image/svg+xml" data="output/samples/mpa_news_card.svg" aria-label="Sample card"></object>
+      <figcaption><span>Text card</span><a href="output/samples/mpa_news_card.svg">SVG</a></figcaption>
+    </figure>
+    <figure>
+      <object type="image/svg+xml" data="output/samples/mpa_news_photo_card.svg" aria-label="Sample photo card"></object>
+      <figcaption><span>Photo card</span><a href="output/samples/mpa_news_photo_card.svg">SVG</a></figcaption>
+    </figure>
+  </div>
+</main>
+<footer>
+  Cards are SVG files that load the Noto Sans Myanmar font and the MPA News logo from the web, so they need an internet connection to display fully.
+</footer>
+</body>
+</html>
